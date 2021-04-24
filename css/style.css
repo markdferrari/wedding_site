@@ -55,7 +55,7 @@ img {
 }
 #navigation li a {
 	color: #fff;
-	font: 18px/24px Georgia, "Times New Roman", Times, serif;
+	font: 18px/24px 'Allura', cursive;
 	text-decoration: none;
 	text-shadow: 1px -1px #661021;
 }
@@ -85,7 +85,7 @@ img {
 }
 #contents .section {
 	float: left;
-	min-height: 590px;
+	min-height: 400px;
 	width: 426px;
 	margin-bottom: 30px;
 }
@@ -111,7 +111,7 @@ img {
 }
 #contents div.frame {
 	width: 410px;
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 	-moz-box-shadow: 0 0 5px 5px rgba(200,200,200,0.6);
 	-webkit-box-shadow: 0 0 5px 5px rgba(200,200,200,0.6);
 	box-shadow: 0 0 5px 5px rgba(200,200,200,0.6);
@@ -241,7 +241,7 @@ img {
 	background-color: #9d9d9d;
 	color: #fff;
 	display: inline-block;
-	font: 16px/37px Georgia, "Times New Roman", Times, serif;
+	font: bold 16px/37px 'Allura', cursive;
 	border-top: 1px solid #838383;
 	height: 37px;
 	letter-spacing: 1px;
@@ -275,7 +275,7 @@ img {
 #about h1 {
 	background: url(../images/bg-heading.png) no-repeat center top;
 	color: #fff;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'Allura', cursive;
 	font-weight: normal;
 	height: 56px;
 	letter-spacing: 1px;
@@ -327,7 +327,7 @@ img {
 }
 #blog #main h3 {
 	color: #616161;
-	font: bold 22px/30px Georgia, "Times New Roman", Times, serif;
+	font: bold 22px/30px 'Allura', cursive;
 	margin: 0;
 }
 #blog #main h3 a {
@@ -344,7 +344,7 @@ img {
 }
 #blog #sidebar h3 {
 	color: #616161;
-	font: bold 16px/30px "Times New Roman", Times, serif;
+	font: bold 16px/30px 'Allura', cursive;
 	margin: 0;
 	text-transform: uppercase;
 }
