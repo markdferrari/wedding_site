@@ -84,7 +84,7 @@ img {
 	color: #0a3100;
 }
 #contents a:hover {
-	color: #0a3100;
+	color: #312e00;
 }
 #contents .section {
 	float: left;
@@ -175,6 +175,10 @@ img {
 }
 #contents .footer h2 {
 	color: rgb(0 ,0, 0);
+}
+#contents .footer h2 a{
+	color: #0a3100;
+
 }
 #contents .footer img {
 	float: left;
@@ -365,7 +369,7 @@ img {
 	text-decoration: underline;
 }
 
-/*Contact sectiom*/
+/*Contact section*/
 .content-header{
 	font-family: 'Allura', cursive;
     color:#487931;
