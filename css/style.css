@@ -1,8 +1,10 @@
 body{
-    background: #fdbc97d7; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #ff3737d7 #fdbc97d7 ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left,#ff3737d7 #fdbc97d7 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color : #fff;
+/*    background: #c7d3df; */
+/*    background: -webkit-linear-gradient(to right, #9bff98 #c7d3df ); /* Chrome 10-25, Safari 5.1-6 */
+/*    background: linear-gradient(to right, #c7d3df , #9bff98); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*    color : #fff; */
+	background-image: url(../images/background.jpg);
+	opacity: 25;
 }
 #page {
 	background: url(../images/bg-page.png) no-repeat right top;
@@ -28,7 +30,7 @@ img {
 	background: url(../images/bg-header.png) no-repeat right top;
 	height: 122px;
 	line-height: 122px;
-	color:#fcc500;
+	color:#383d0e;
 	text-align: right;
 }
 /** Logo **/
@@ -55,14 +57,14 @@ img {
 	text-align: center;
 }
 #navigation li a {
-	color: #fff;
+	color: rgb(0, 0, 0);
 	font: 24px/32px 'Allura', cursive;
 	text-decoration: none;
 	text-shadow: 1px -1px #661021;
 }
 #navigation li a:hover, #navigation li.selected a {
 	background: url(../images/bg-menuhover.gif) repeat-x left bottom;
-	color: #ffffff;
+	color: #fff;
 	padding-bottom: 5px;
 }
 /*------------------------------ CONTENTS ------------------------------*/
@@ -74,14 +76,13 @@ img {
 #contents p {
 	color: #000000;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 12px;
-	line-height: 30px;
+	font: bold 28px/50px;
 	margin: 0;
 	padding: 0 0 30px;
 	text-align: justify;
 }
 #contents p a {
-	color: #160f7a;
+	color: #3c3839;
 }
 #contents a:hover {
 	color: #3c3839;
@@ -94,7 +95,7 @@ img {
 }
 #contents .section p {
 	font-family: 'Allura', cursive;
-	color: #a51330;
+	color: rgb(0, 0, 0);
 	font-size: 22px;
 	line-height: 30px;
 	padding: 0 20px;
@@ -163,7 +164,7 @@ img {
 }
 #contents .footer h1 {
 	background: url(../images/bg-heading.png) no-repeat center top;
-	color: #fff;
+	color: rgb(0 ,0, 0);
 	font: bold 28px/50px 'Allura', cursive;
 	height: 56px;
 	letter-spacing: 1px;
@@ -243,8 +244,8 @@ img {
 	margin-left: 0;
 }
 #tab ul li a {
-    background: #89253e; /* fallback for old browsers */
-	color: #fff;
+    background: #525a0e; /* fallback for old browsers */
+	color: rgb(0, 0, 0);
 	display: inline-block;
 	font: bold 16px/37px 'Allura', cursive;
 	border-top: 1px solid #838383;
@@ -252,12 +253,11 @@ img {
 	letter-spacing: 1px;
 	padding: 0 10px;
 	text-decoration: none;
-	text-shadow: 1px -1px #8e8e8e;
 	text-transform: uppercase;
 }
 #tab ul li a:hover, #tab ul li.selected a {
-	background-color: #fff7e7;
-	color: #a51330;
+	background-color: #525a0e;
+	color: #ffffff;
 	height: 38px;
 	line-height: 38px;
 	border-top: 1px solid #fff;
@@ -372,7 +372,7 @@ img {
 /*Contact sectiom*/
 .content-header{
 	font-family: 'Allura', cursive;
-    color:#fcc500;
+    color:#487931;
     font-size: 45px;
 }
 .section-content{
@@ -418,13 +418,13 @@ textarea.form-control {
     float: right;
     width: 150px;
     background-color: transparent;
-    color: #fff;
+    color: rgb(0, 0, 0);
   
 }
 /*------------------------------ FOOTER ------------------------------*/
 #footer {
 	background: url(../images/bg-footer.png) no-repeat right top;
-	color: #8d8d8d;
+	color: #000000;
 	font-family: 'Allura', cursive;
 	padding: 54px 38px 0 70px;
 	text-align: center;
