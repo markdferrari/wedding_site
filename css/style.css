@@ -4,7 +4,6 @@ body{
 /*    background: linear-gradient(to right, #c7d3df , #9bff98); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 /*    color : #fff; */
 	background-image: url(../images/background.jpg);
-	opacity: 25;
 }
 #page {
 	background: url(../images/bg-page.png) no-repeat right top;
@@ -76,16 +75,15 @@ img {
 #contents p {
 	color: #000000;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font: bold 28px/50px;
 	margin: 0;
 	padding: 0 0 30px;
 	text-align: justify;
 }
 #contents p a {
-	color: #3c3839;
+	color: #0a3100;
 }
 #contents a:hover {
-	color: #3c3839;
+	color: #0a3100;
 }
 #contents .section {
 	float: left;
@@ -183,7 +181,8 @@ img {
 	margin-right: 30px;
 }
 #contents .footer p {
-	font-size: 16px;
+	font-size: 18px;
+	font-weight: bold;
 }
 /** connect **/
 #connect {
