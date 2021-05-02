@@ -4,6 +4,7 @@ body{
 /*    background: linear-gradient(to right, #c7d3df , #9bff98); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 /*    color : #fff; */
 	background-image: url(../images/background.jpg);
+	background-attachment: fixed;
 }
 #page {
 	background: url(../images/bg-page.png) no-repeat right top;
@@ -123,6 +124,7 @@ img {
 #contents div.frame > div {
 	background-color: #fff7e7;
 	display: inline-block;
+	font-weight: normal;
 }
 #contents div.frame > div.first img {
 	margin-bottom: 3px;
@@ -170,10 +172,8 @@ img {
 	margin: 0 auto;
 	text-align: center;
 	text-shadow: 1px -1px #661021;
-	text-transform: uppercase;
 }
 #contents .footer h2 {
-	text-transform: uppercase;
 }
 #contents .footer img {
 	float: left;
@@ -226,9 +226,8 @@ img {
 }
 /** Tabs **/
 #tab {
-	background: url(../images/border.gif) repeat-x left bottom;
-	height: 40px;
-	margin-bottom: 24px;
+	background: url(../images/bg-extra.png) repeat-x left bottom;
+	height: 70px;
 }
 #tab ul {
 	list-style: none;
@@ -243,7 +242,6 @@ img {
 	margin-left: 0;
 }
 #tab ul li a {
-    background: #525a0e; /* fallback for old browsers */
 	color: rgb(0, 0, 0);
 	display: inline-block;
 	font: bold 16px/37px 'Allura', cursive;
@@ -252,10 +250,8 @@ img {
 	letter-spacing: 1px;
 	padding: 0 10px;
 	text-decoration: none;
-	text-transform: uppercase;
 }
 #tab ul li a:hover, #tab ul li.selected a {
-	background-color: #525a0e;
 	color: #ffffff;
 	height: 38px;
 	line-height: 38px;
@@ -382,14 +378,14 @@ img {
 	font-family: 'Allura', cursive;
     padding-top: 60px;
     width: 100%;
-    width: 100vw;
+    width: 200vw;
     height: 550px;    
 }
 .contact-section{
     padding-top: 40px;
 }
 .contact-section .col-md-6{
-    width: 50%;
+    width: 100%;
 }
 .form-line{
     border-right: 1px solid #B29999;
@@ -405,6 +401,7 @@ label{
 .form-control{
 	font-family: 'Allura', cursive;
     font-size: 1.3em;
+	font-weight: bold;
     color: #080808;
 }
 textarea.form-control {
@@ -414,7 +411,8 @@ textarea.form-control {
 .submit{
 	font-family: 'Allura', cursive;
 	font-size: 1.1em;
-    float: right;
+	font-weight: bold;
+    float: left;
     width: 150px;
     background-color: transparent;
     color: rgb(0, 0, 0);
