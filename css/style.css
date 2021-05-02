@@ -1,7 +1,7 @@
 body{
-    background: #3a6186; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fdbc97d7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ff3737d7 #fdbc97d7 ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,#ff3737d7 #fdbc97d7 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color : #fff;
 }
 #page {
@@ -73,7 +73,8 @@ img {
 }
 #contents p {
 	color: #000000;
-	font-size: 16px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 12px;
 	line-height: 30px;
 	margin: 0;
 	padding: 0 0 30px;
@@ -92,6 +93,7 @@ img {
 	margin-bottom: 30px;
 }
 #contents .section p {
+	font-family: 'Allura', cursive;
 	color: #a51330;
 	font-size: 22px;
 	line-height: 30px;
@@ -180,7 +182,7 @@ img {
 	margin-right: 30px;
 }
 #contents .footer p {
-	font-size: 24px;
+	font-size: 16px;
 }
 /** connect **/
 #connect {
