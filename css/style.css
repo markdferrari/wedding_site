@@ -241,7 +241,7 @@ img {
 	margin-left: 0;
 }
 #tab ul li a {
-	background-color: #9d9d9d;
+    background: #89253e; /* fallback for old browsers */
 	color: #fff;
 	display: inline-block;
 	font: bold 16px/37px 'Allura', cursive;
