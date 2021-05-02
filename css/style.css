@@ -124,7 +124,7 @@ img {
 #contents div.frame > div {
 	background-color: #fff7e7;
 	display: inline-block;
-	font-weight: bold;
+	font-weight: normal;
 }
 #contents div.frame > div.first img {
 	margin-bottom: 3px;
@@ -172,10 +172,8 @@ img {
 	margin: 0 auto;
 	text-align: center;
 	text-shadow: 1px -1px #661021;
-	text-transform: uppercase;
 }
 #contents .footer h2 {
-	text-transform: uppercase;
 }
 #contents .footer img {
 	float: left;
@@ -228,9 +226,8 @@ img {
 }
 /** Tabs **/
 #tab {
-	background: url(../images/border.gif) repeat-x left bottom;
-	height: 40px;
-	margin-bottom: 24px;
+	background: url(../images/bg-extra.png) repeat-x left bottom;
+	height: 70px;
 }
 #tab ul {
 	list-style: none;
@@ -245,7 +242,6 @@ img {
 	margin-left: 0;
 }
 #tab ul li a {
-    background: #525a0e; /* fallback for old browsers */
 	color: rgb(0, 0, 0);
 	display: inline-block;
 	font: bold 16px/37px 'Allura', cursive;
@@ -254,10 +250,8 @@ img {
 	letter-spacing: 1px;
 	padding: 0 10px;
 	text-decoration: none;
-	text-transform: uppercase;
 }
 #tab ul li a:hover, #tab ul li.selected a {
-	background-color: #525a0e;
 	color: #ffffff;
 	height: 38px;
 	line-height: 38px;
