@@ -124,6 +124,7 @@ img {
 #contents div.frame > div {
 	background-color: #fff7e7;
 	display: inline-block;
+	font-weight: bold;
 }
 #contents div.frame > div.first img {
 	margin-bottom: 3px;
@@ -383,14 +384,14 @@ img {
 	font-family: 'Allura', cursive;
     padding-top: 60px;
     width: 100%;
-    width: 100vw;
+    width: 200vw;
     height: 550px;    
 }
 .contact-section{
     padding-top: 40px;
 }
 .contact-section .col-md-6{
-    width: 50%;
+    width: 100%;
 }
 .form-line{
     border-right: 1px solid #B29999;
@@ -406,6 +407,7 @@ label{
 .form-control{
 	font-family: 'Allura', cursive;
     font-size: 1.3em;
+	font-weight: bold;
     color: #080808;
 }
 textarea.form-control {
@@ -415,7 +417,8 @@ textarea.form-control {
 .submit{
 	font-family: 'Allura', cursive;
 	font-size: 1.1em;
-    float: right;
+	font-weight: bold;
+    float: left;
     width: 150px;
     background-color: transparent;
     color: rgb(0, 0, 0);
