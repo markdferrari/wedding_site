@@ -1,8 +1,8 @@
-/* Website template by freewebsitetemplates.com */
-body {
-	background: url(../images/bg-body.jpg) repeat left top;
-	font-family: "Times New Roman", Times, serif;
-	margin: 0;
+body{
+    background: #3a6186; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #fff;
 }
 #page {
 	background: url(../images/bg-page.png) no-repeat right top;
@@ -28,6 +28,7 @@ img {
 	background: url(../images/bg-header.png) no-repeat right top;
 	height: 122px;
 	line-height: 122px;
+	color:#fcc500;
 	text-align: right;
 }
 /** Logo **/
@@ -55,7 +56,7 @@ img {
 }
 #navigation li a {
 	color: #fff;
-	font: 18px/24px 'Allura', cursive;
+	font: 24px/32px 'Allura', cursive;
 	text-decoration: none;
 	text-shadow: 1px -1px #661021;
 }
@@ -67,10 +68,11 @@ img {
 /*------------------------------ CONTENTS ------------------------------*/
 #contents {
 	background: url(../images/bg-content.png) repeat-y right top;
-	padding: 30px 38px 0 70px;
+	padding: 30px 38px 0 70px;	
+	font-family: 'Allura', cursive;
 }
 #contents p {
-	color: #616161;
+	color: #000000;
 	font-size: 16px;
 	line-height: 30px;
 	margin: 0;
@@ -78,7 +80,7 @@ img {
 	text-align: justify;
 }
 #contents p a {
-	color: #616161;
+	color: #160f7a;
 }
 #contents a:hover {
 	color: #3c3839;
@@ -115,6 +117,7 @@ img {
 	-moz-box-shadow: 0 0 5px 5px rgba(200,200,200,0.6);
 	-webkit-box-shadow: 0 0 5px 5px rgba(200,200,200,0.6);
 	box-shadow: 0 0 5px 5px rgba(200,200,200,0.6);
+
 }
 #contents div.frame > div {
 	background-color: #fff7e7;
@@ -159,7 +162,7 @@ img {
 #contents .footer h1 {
 	background: url(../images/bg-heading.png) no-repeat center top;
 	color: #fff;
-	font: bold 28px/50px Georgia, "Times New Roman", Times, serif;
+	font: bold 28px/50px 'Allura', cursive;
 	height: 56px;
 	letter-spacing: 1px;
 	width: 300px;
@@ -177,7 +180,7 @@ img {
 	margin-right: 30px;
 }
 #contents .footer p {
-	font-size: 18px;
+	font-size: 24px;
 }
 /** connect **/
 #connect {
@@ -187,7 +190,7 @@ img {
 }
 #connect h2 {
 	color: #616161;
-	font: bold 20px/30px Georgia, "Times New Roman", Times, serif;
+	font: bold 20px/30px 'Allura', cursive;
 	text-transform: uppercase;
 }
 #connect a {
@@ -363,11 +366,64 @@ img {
 #blog #sidebar ul li a:hover {
 	text-decoration: underline;
 }
+
+/*Contact sectiom*/
+.content-header{
+	font-family: 'Allura', cursive;
+    color:#fcc500;
+    font-size: 45px;
+}
+.section-content{
+    text-align: center; 
+  
+}
+#contact{
+	font-family: 'Allura', cursive;
+    padding-top: 60px;
+    width: 100%;
+    width: 100vw;
+    height: 550px;    
+}
+.contact-section{
+    padding-top: 40px;
+}
+.contact-section .col-md-6{
+    width: 50%;
+}
+.form-line{
+    border-right: 1px solid #B29999;
+} 
+.form-group{
+    margin-top: 10px;
+}
+label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+}
+.form-control{
+	font-family: 'Allura', cursive;
+    font-size: 1.3em;
+    color: #080808;
+}
+textarea.form-control {
+    height: 178px;
+    /* margin-top: px;*/
+}
+.submit{
+	font-family: 'Allura', cursive;
+	font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: #fff;
+  
+}
 /*------------------------------ FOOTER ------------------------------*/
 #footer {
 	background: url(../images/bg-footer.png) no-repeat right top;
 	color: #8d8d8d;
-	font: 14px/24px Arial, Helvetica, sans-serif;
+	font-family: 'Allura', cursive;
 	padding: 54px 38px 0 70px;
 	text-align: center;
 }
