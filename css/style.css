@@ -69,9 +69,10 @@ img {
 }
 /*------------------------------ CONTENTS ------------------------------*/
 #contents {
-	background: url(../images/bg-content.png) repeat-y right top;
 	padding: 30px 38px 0 70px;	
 	font-family: 'Allura', cursive;
+	background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+
 }
 #contents p {
 	color: #000000;
